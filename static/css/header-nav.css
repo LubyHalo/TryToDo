@@ -1,0 +1,21 @@
+nav{
+    font-family: "Microsoft Yahei",'Arial';
+}
+.navbar-brand{
+    line-height: 30px;
+}
+.navbar-nav > li > a{
+    line-height: 30px;
+}
+.set-nav-left{
+    float: right;
+}
+.set-nav-left > .header-nav-avatar > a{
+    line-height: 30px;
+    padding: 5px;
+}
+.header-nav-avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
