@@ -23,10 +23,9 @@ export default {
 </script>
 
 <style>
-  @import '/static/css/header-intro.css';  
-.bg-set-1{
-  background: url('../assets/bg-header-intro.jpg') center center no-repeat;
-  margin-bottom: 50px;
-}
+  .bg-set-1{
+    background: url('../assets/bg-header-intro.jpg') center center no-repeat;
+    margin-bottom: 50px;
+  }
 </style>
 

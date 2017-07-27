@@ -17,22 +17,18 @@
       </div>
     </nav>
     <header-intro></header-intro>
-    <div class="container">
-      <div class="col-sm-3">
-      </div>
-      <div class="col-sm-9">
-        <router-view></router-view>
-      </div>
-    </div>
+        <!-- <router-view></router-view> -->
+        <trends-list></trends-list>
   </div>
 </template>
 
 <script>
 import HeaderIntro from './components/HeaderIntro.vue'
+import TrendsList from './components/TrendsList.vue'
 
 export default {
   name: 'app',
-  components: {'header-intro':HeaderIntro}
+  components: {'header-intro':HeaderIntro,'trends-list':TrendsList}
 }
 </script>
 
